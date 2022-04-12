@@ -52,6 +52,56 @@
     color: #23272A;
 }
 
+/* CLASSI UTILITIES TEXT */
+
+.bg-white {
+    background: var(--white);
+}
+
+.bg-black {
+    background: var(--black);
+}
+
+.big-padding-y {
+    padding-top: 2rem  ;
+    padding-bottom: 2rem  ;
+}
+
+.big-padding-x {
+    padding-left: 2rem  ;
+    padding-right: 2rem  ;
+}
+
+.medium-padding-y {
+    padding-top: 1.2rem  ;
+    padding-bottom: 1.2rem  ;
+}
+
+.medium-padding-x {
+    padding-left: 1.2rem  ;
+    padding-right: 1.2rem  ;
+}
+
+.small-padding-y {
+    padding-top: 0.9rem  ;
+    padding-bottom: 0.9rem  ;
+}
+
+.small-padding-x {
+    padding-left: 0.9rem  ;
+    padding-right: 0.9rem ;
+}
+
+.very-small-padding-y {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.very-small-padding-x {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+
 
 
 /* ------------------------------------------------------------------------ */
@@ -241,9 +291,9 @@ footer .logo , footer .bottone {
 
 
 .btn {
-    padding: 0.5rem 0.8rem;
     border: none;
     border-radius: 35px;
+    margin-left: 0.8rem;
     
 }
 
@@ -251,4 +301,8 @@ footer .logo , footer .bottone {
     padding-top: 2rem;
     line-height: 1.8rem;
     padding-bottom: 0.8rem;
+  
 }
+
+
+
