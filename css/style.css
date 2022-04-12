@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -23,10 +24,33 @@
     --light-pink : #F08080;
     --aqua-blue : #20B2AA;
     --light-aqua-blue : #7fffd4;
+    
 
 
 }
 
+/* CLASSI UTILITIES PER FONTS  */
+.big-text {
+    font-size: 2.7rem;
+}
+
+.medium-text {
+    font-size: 1.1rem;
+}
+
+
+.small-text {
+    font-size: 0.9rem;
+}
+
+/* CLASSI UTILITIES COLORI TEXT */
+.text-white {
+    color: #fff;
+}
+
+.text-black {
+    color: #23272A;
+}
 
 
 
@@ -36,7 +60,7 @@
 /* Stile dell'header (container , navbar) logo links login  */
 
  header {
-    background: var(--light-sky-blue);
+   
     padding: 1rem 2rem;
 }
 
@@ -44,18 +68,23 @@
 
 .container {
     width: 960px;
-    border: 2px dashed #000;
+  
     margin: 0 auto;
 }
 
 nav {
     display: flex;
-    background: var(--orange);
+   
     justify-content: space-between;
     padding: 0 1rem;
     align-items: center;
    
 }
+
+nav ul {
+    gap: 1.2rem;
+}
+
 
 nav .logo , nav .login {
     flex-grow: 1;
@@ -70,7 +99,7 @@ nav .logo , nav .login {
 
 nav .links {
     display: flex;
-    border: 2px dashed #000;
+
     flex-grow: 1;
     padding: 0.5rem 0;
     justify-content: center;
@@ -88,18 +117,17 @@ nav .links > li {
 
 
 .main {
-    background: var(--dark-blue);
+    
     min-height: 500px;
     padding: 2rem 0;
 }
 
 
 .main-content {
-    background: var(--pink);
+   text-align: center;
     min-height: 400px;
     margin: 0 auto;
-   
-    border: 2px dashed #000;
+   padding-top: 3rem;
     max-width: 800px;
 }
 
@@ -199,3 +227,28 @@ footer .logo , footer .bottone {
 
 
 /* ------------------------------------------------------------------------ */
+
+
+
+/* IMPLEMENTAZIONI STILI DISCORD NUOVA REPO  */
+
+
+.jumbo {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.btn {
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 35px;
+    
+}
+
+.p-content {
+    padding-top: 2rem;
+    line-height: 1.8rem;
+    padding-bottom: 0.8rem;
+}
