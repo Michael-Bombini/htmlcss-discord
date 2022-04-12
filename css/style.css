@@ -31,7 +31,7 @@
 
 /* CLASSI UTILITIES PER FONTS  */
 .big-text {
-    font-size: 2.7rem;
+    font-size: 2.2rem;
 }
 
 .medium-text {
@@ -63,13 +63,13 @@
 }
 
 .big-padding-y {
-    padding-top: 2rem  ;
-    padding-bottom: 2rem  ;
+    padding-top: 4rem  ;
+    padding-bottom: 4rem  ;
 }
 
 .big-padding-x {
-    padding-left: 2rem  ;
-    padding-right: 2rem  ;
+    padding-left: 4rem  ;
+    padding-right: 4rem  ;
 }
 
 .medium-padding-y {
@@ -193,13 +193,13 @@ nav .links > li {
 }
 
 .section .container .first-content {
-    background: var(--light-blue);
+    
     flex-basis:  60%;
     min-height: 600px;
 }
 
 .section .container .second-content {
-    background: var(--light-white-pink);
+   
     flex-basis: 40%;
     min-height: 600px;
 }
@@ -299,7 +299,7 @@ footer .logo , footer .bottone {
 
 .p-content {
     padding-top: 2rem;
-    line-height: 1.8rem;
+    line-height: 1.7rem;
     padding-bottom: 0.8rem;
   
 }
