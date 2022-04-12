@@ -18,7 +18,7 @@
     --white : #FFFFFF;
     --light-blue : #1E90FF;
     --light-white-pink : #FFC0CB;
-    --light-gray : #D3D3D3;
+    --light-gray : #F6F6F6;
     --green : #228B22;
     --black : #23272A;
     --light-pink : #F08080;
@@ -32,6 +32,10 @@
 /* CLASSI UTILITIES PER FONTS  */
 .big-text {
     font-size: 2.2rem;
+}
+
+.big-medium-text {
+    font-size: 1.6rem;
 }
 
 .medium-text {
@@ -60,6 +64,10 @@
 
 .bg-black {
     background: var(--black);
+}
+
+.bg-lilla {
+    background: #8EA1E1;
 }
 
 .big-padding-y {
@@ -102,7 +110,9 @@
     padding-right: 0.4rem;
 }
 
-
+.text-center {
+    text-align: center;
+}
 
 /* ------------------------------------------------------------------------ */
 
@@ -117,7 +127,7 @@
 
 
 .container {
-    width: 960px;
+    width: 1300px;
   
     margin: 0 auto;
 }
@@ -188,7 +198,6 @@ nav .links > li {
 .section {
     min-height: 600px;
     background: var(--white);
-    display: flex;
     padding: 2rem 0;
 }
 
@@ -218,7 +227,7 @@ nav .links > li {
 
 .section .container.big {
     min-height: 800px;
-    background: var(--green);
+    
 }
 /* ------------------------------------------------------------------------ */
 
@@ -306,3 +315,6 @@ footer .logo , footer .bottone {
 
 
 
+.flex-column {
+    flex-direction: column;
+}
