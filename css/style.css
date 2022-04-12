@@ -1,0 +1,201 @@
+/* Stile di reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    
+}
+
+
+/* VARIABILI COLORI */
+:root {
+    --light-sky-blue : #ADD8E6;
+    --orange : #DAA520;
+    --dark-blue : #00008B;
+    --pink : #EE82EE;
+    --white : #FFFFFF;
+    --light-blue : #1E90FF;
+    --light-white-pink : #FFC0CB;
+    --light-gray : #D3D3D3;
+    --green : #228B22;
+    --black : #23272A;
+    --light-pink : #F08080;
+    --aqua-blue : #20B2AA;
+    --light-aqua-blue : #7fffd4;
+
+
+}
+
+
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Stile dell'header (container , navbar) logo links login  */
+
+ header {
+    background: var(--light-sky-blue);
+    padding: 1rem 2rem;
+}
+
+
+
+.container {
+    width: 960px;
+    border: 2px dashed #000;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    background: var(--orange);
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+   
+}
+
+nav .logo , nav .login {
+    flex-grow: 1;
+    
+  
+
+}
+
+.login {
+    text-align: right;
+}
+
+nav .links {
+    display: flex;
+    border: 2px dashed #000;
+    flex-grow: 1;
+    padding: 0.5rem 0;
+    justify-content: center;
+}
+
+nav .links > li {
+    padding: 0 0.5rem;
+    list-style: none;
+}
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Stile del main content */
+
+
+.main {
+    background: var(--dark-blue);
+    min-height: 500px;
+    padding: 2rem 0;
+}
+
+
+.main-content {
+    background: var(--pink);
+    min-height: 400px;
+    margin: 0 auto;
+   
+    border: 2px dashed #000;
+    max-width: 800px;
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* Stile della prima seconda  terza section e quarta section (big section  */
+
+.section {
+    min-height: 600px;
+    background: var(--white);
+    display: flex;
+    padding: 2rem 0;
+}
+
+.section .container .first-content {
+    background: var(--light-blue);
+    flex-basis:  60%;
+    min-height: 600px;
+}
+
+.section .container .second-content {
+    background: var(--light-white-pink);
+    flex-basis: 40%;
+    min-height: 600px;
+}
+
+.flex {
+    display: flex;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.gray {
+    background: var(--light-gray);
+}
+
+.section .container.big {
+    min-height: 800px;
+    background: var(--green);
+}
+/* ------------------------------------------------------------------------ */
+
+/* Footer  */
+
+
+footer {
+    background: var(--black);
+    min-height: 600px;
+    padding-top: 0.5rem ;
+    
+    
+}
+
+
+
+
+
+.big-column {
+    background: var(--light-pink);
+    flex-basis: 50%;
+    min-height: 500px;
+    border: 2px dashed #000;
+   
+}
+
+.small-column {
+    background : var(--aqua-blue) ;
+    flex-basis: calc(100% / 4);
+    border: 2px dashed #fff;
+}
+
+
+hr {
+    margin-top: 2rem;
+}
+
+
+footer .info {
+    padding-top: 1rem;
+    padding: 1rem 0;
+    background: var(--light-aqua-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+
+footer .logo , footer .bottone {
+    background: var(--light-white-pink);
+    border: 2px dashed #000;
+    padding: 0.2rem;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
