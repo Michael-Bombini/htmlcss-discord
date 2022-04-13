@@ -1,0 +1,24 @@
+button.bg-white:hover{
+    box-shadow: 2px  3px ;
+    background-color: #ffffff8e;
+    font-weight: bold;
+
+ 
+}
+
+button.bg-black:hover {
+    box-shadow: 2px 4px;
+    background-color: #000000a7;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(222, 173, 50);
+}
+
+
+button.bg-lilla:hover {
+    font-style: oblique;
+    color: #000;
+    border: 2px dashed #fff;
+    background: #9d9d9de9;
+  
+}
