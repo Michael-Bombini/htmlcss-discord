@@ -22,3 +22,8 @@ button.bg-lilla:hover {
     background: #9d9d9de9;
   
 }
+
+
+.rotate {
+    transform: rotate(180deg);
+  }
