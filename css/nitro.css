@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+.jumbo {
+    background: linear-gradient(90deg,#b473f5,#e292aa);
+
+}
+
+
+.main {
+    min-height: 700px;
+    display: flex;
+    padding: 2rem;
+}
+
+
+.main-content {
+    margin: 0;
+    padding: 3rem;
+}
+
+
+.nitro-img {
+    width: 500px;
+}
+
+
+.price {
+    border-radius: 20px;
+}
+
+
+.nitro-h {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #23272A;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+
+.sub-title {
+    text-align: center;
+    font-weight: lighter;
+    color: #23272A;
+   
+}
+
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    max-width: 1300px;
+    gap : 20px;
+}
+
+
+.card {
+    background: linear-gradient(142.53deg,#00a295,#26e8f4 98.75%),#3dcda7;
+    width: calc(100% / 3 - 40px);
+    min-height: 250px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 1.9rem;
+    color: #fff;
+    
+    
+}
+
+
+.card:nth-child(2) {
+  background: linear-gradient(321.82deg,#21f2ff,#4181ff 59.22%,#4475ff 98.02%),#7196ff;
+}
+
+
+.card:nth-child(3) {
+    background: linear-gradient(138.46deg,#3e70ff 1.48%,#9a98ff 98.75%),#ff73fa;
+}
+
+.card:nth-child(4) {
+    background: linear-gradient(141.85deg,#7e7bff,#ff73fa);
+}
+
+.card:nth-child(5) {
+  background: linear-gradient(141.48deg,#f837ee 1.35%,#ffcd4b);
+   
+}
+
+
+.card:nth-child(6) {
+    background:  linear-gradient(321.73deg,#ffcd4b -1.09%,#ee6315 100.65%);
+}
+
+
+
+
+
+.card-text {
+    padding-bottom: 0.8rem;
+}
